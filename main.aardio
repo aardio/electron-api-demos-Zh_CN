@@ -1,0 +1,3 @@
+import electron.app;
+var app = electron.app("electron app",,/*true 开发环境下是否显示主进程控制台*/);
+app.startLoopMessage();

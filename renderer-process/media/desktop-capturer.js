@@ -32,7 +32,7 @@ screenshot.addEventListener('click', (event) => {
 })
 
 function determineScreenShotSize () {
-  const screenSize = screen.getPrimaryDisplay().workAreaSize
+  const screenSize = window.screen.workAreaSize
   const maxDimension = Math.max(screenSize.width, screenSize.height)
   return {
     width: maxDimension * window.devicePixelRatio,

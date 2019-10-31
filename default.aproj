@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="electron-api-demos" libEmbed="true" icon="..." ui="win" output="electron-api.exe" CompanyName="aardio" FileDescription="electron-api-demos" LegalCopyright="Copyright (C) aardio 2019" ProductName="electron-api-demos" InternalName="electron-api-demos" FileVersion="1.0.0.46" ProductVersion="1.0.0.46" publishDir="\publish\" dstrip="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+</project>
